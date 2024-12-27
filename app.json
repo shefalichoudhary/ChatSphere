@@ -3,6 +3,7 @@
     "name": "chat-app",
     "slug": "chat-app",
     "version": "1.0.0",
+    "description": "A user-friendly and real-time chat application designed for seamless communication",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -36,6 +37,20 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "16ec7fbc-7904-439a-a530-f4108c25af55"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/16ec7fbc-7904-439a-a530-f4108c25af55"
     }
   }
 }
